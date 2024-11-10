@@ -1,0 +1,15 @@
+{
+    "URL": "https://www.saucedemo.com/",
+    "validUsername": "standard_user",
+    "password": "secret_sauce",
+    "firstName": "standard",
+    "lastName": "user",
+    "postalCode": "11111",
+    "invalidUsername": "AlsayedElkholy",
+    "invalidPassword": "wrong_password",
+    "lockedOutuser": "locked_out_user",
+    "problemUser": "problem_user",
+    "performanceGlitchUser": "performance_glitch_user",
+    "errorUser": "error_user",
+    "visual_user": "visual_user"
+  }

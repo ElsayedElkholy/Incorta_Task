@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 module.exports = async function getTestData() {
-  const filePath = path.resolve(__dirname, 'expectedResults.json');
+  const filePath = path.resolve(__dirname, 'testData.json');
   const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
   return data;
 };

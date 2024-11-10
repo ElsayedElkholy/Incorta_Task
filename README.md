@@ -11,12 +11,12 @@ This project is a Playwright-based test suite for verifying various functionalit
 
 ## Project Structure
 - **pageobjects**: Contains page object files for each page tested, implementing methods to interact with page elements.
-- **e2e**: Contains the test file that run various scenarios.
+- **tests/e2eTests**: Contains the test file that run various scenarios.
 - **playwright.config.js**: Contains the Playwright configuration settings.
 - **playwright-report**: Stores the HTML report.
-- **tests.spec.js-snapshots**: Stores the screenshots.
+- **tests/e2eTests.spec.js-snapshots**: Stores the screenshots.
 - **package.json**: Contains the project dependencies and scripts.
-
+- **testData.json**: Contains the testData for the test cases.
 ## TestCases
 - **TC1:** Visual Regression Test for Valid Scenario.
 - **TC2:** Verify the user is able to login and place an order successfully.
